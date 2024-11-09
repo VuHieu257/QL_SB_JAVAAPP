@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#00BCD4"
+    tools:context=".Activity.Admin.ThemSan">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:backgroundTint="#00BCD4"
+            android:background="#DDDDDD">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/imgSan"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/imgsan1"
+                    app:shapeAppearanceOverlay="@style/circula1"
+                    tools:ignore="MissingClass,MissingConstraints"></com.google.android.material.imageview.ShapeableImageView>
+
+                <ImageView
+                    android:id="@+id/imgUpload"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_alignEnd="@+id/imgSan"
+                    android:layout_alignBottom="@+id/imgSan"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="-10dp"
+                    android:src="@drawable/ic_file_upload"></ImageView>
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/txtIDSan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="ID San"
+                android:visibility="gone"></TextView>
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id="@+id/edtTenSan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="Nhập tên sân"
+                android:textColor="@color/black"></EditText>
+
+            <Button
+                android:id="@+id/btnThemSan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#4CAF50"
+                android:text="Thêm"
+                app:cornerRadius="30dp"></Button>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

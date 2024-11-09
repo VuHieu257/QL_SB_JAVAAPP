@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LTDD2_DatSanCauLong"
+        tools:targetApi="31">
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Theme.LTDD2_DatSanCauLongNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.User.DanhSachSanDaDatUser"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.User.UserDatSan"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.User.UserHome"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Activity.Admin.AdminDatSan"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.ChiTietSan"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.ThemSan"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.ChiTietKhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.ThemKhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.DanhSachSanDaDat"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.DanhSachSan"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.DanhSachKhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Admin.HomeActivity"
+            android:exported="false">
+
+            <!--            <intent-filter>-->
+            <!--                <action android:name="android.intent.action.MAIN" />-->
+            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
+            <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>

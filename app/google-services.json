@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738922359070",
+    "project_id": "ltdd2-datsancaulong-79084",
+    "storage_bucket": "ltdd2-datsancaulong-79084.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738922359070:android:9af9e1f66293898485010f",
+        "android_client_info": {
+          "package_name": "com.example.ltdd2_datsancaulong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7dDf7K84a09nZV3_e9Fmxjmdo5Hhxnoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

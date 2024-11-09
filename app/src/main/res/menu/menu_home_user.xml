@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnDanhSachSanThue"
+        android:icon="@drawable/ic_details"
+        android:title="Chi tiết sân thuê"></item>
+    <item
+        android:id="@+id/mnHoaDon"
+        android:icon="@drawable/ic_check_circle"
+        android:title="Chi tiết sân thuê"></item>
+    <item
+        android:id="@+id/mnInfo"
+        android:icon="@drawable/ic_logout"
+        android:title="Đăng xuất"></item>
+</menu>
